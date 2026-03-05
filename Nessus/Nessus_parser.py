@@ -1,6 +1,6 @@
 import pandas as pd
 
-file_path = "sample_nessus_report.csv"   
+file_path = "sample_nessus_report.csv" #change file path as required  
 df = pd.read_csv(file_path)
 
 # Clean column names (removes hidden spaces) 
